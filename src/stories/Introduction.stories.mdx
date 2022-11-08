@@ -1,0 +1,71 @@
+import { Meta, Source } from '@storybook/addon-docs';
+import Code from './assets/code-brackets.svg';
+import Colors from './assets/colors.svg';
+import Comments from './assets/comments.svg';
+import Direction from './assets/direction.svg';
+import Flow from './assets/flow.svg';
+import Plugin from './assets/plugin.svg';
+import Repo from './assets/repo.svg';
+import StackAlt from './assets/stackalt.svg';
+
+<Meta title="Introduction" />
+
+<style>
+  {`
+    .subheading {
+      --mediumdark: '#999999';
+      font-weight: 900;
+      font-size: 13px;
+      color: #2e2e2e;
+      letter-spacing: 6px;
+      line-height: 24px;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+      margin-top: 40px;
+    }
+  `}
+</style>
+
+# React-ngm-form
+
+Is a React component library for build forms with validations using [**React-form-hook**](https://react-hook-form.com/) and [**Reactstrap**](https://reactstrap.github.io/) with [**Bootstrap 5.1**](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
+
+
+<div className="subheading">Instalation</div>
+
+<div>
+  <Source
+    format={false}
+    code={`npm i --save react-ngm-form`}
+  />
+</div>
+
+<div className="subheading">Getting Started</div>
+<div >
+  <b>1.</b> Import Bootstrap in the root project
+   <Source
+    format={false}
+    code={`npm i --save bootstrap`}
+  />
+   <Source
+    format={false}
+    code={`import 'bootstrap/dist/css/bootstrap.min.css';`}
+  />
+</div>
+<div>
+  <b>2.</b> Or include Bootstrap from CDN in your HTML 
+   <Source
+    format={false}
+    code={`<head>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+  />
+</head>`}
+  />
+</div>
+
+<div>
+  <b>3. <a href="?path=/story/form--basic-form">Start to build forms</a></b> 
+
+</div>

@@ -1,0 +1,50 @@
+.password-input {
+    position: relative;
+}
+
+.password-input>input {
+    padding-right: 42px;
+}
+
+.password-input>span {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    right: 0;
+}
+
+.password-input>span>svg {
+    height: 18px;
+    width: 18px;
+}
+
+/* .react-tel-input .selected-flag:hover, .react-tel-input .selected-flag:focus {
+    background-color: #00000014 !important;
+}
+.react-tel-input .flag-dropdown.open .selected-flag{
+    background-color: #0000000b !important;
+}
+.is-invalid{
+    border-color: #dc3545 !important; 
+} */
+
+.select-input {
+    position: relative;
+}
+
+.select-input.loading::after {
+    content: "Cargando...";
+    position: absolute;
+    height: 100%;
+    top: 0;
+    padding-left: 14px;
+    display: flex;
+    align-items: center;
+    color: #b5b5b5;
+}
+
+
