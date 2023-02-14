@@ -1,3 +1,6 @@
+/* .form-field-wrapper{
+} */
+
 .password-input {
     position: relative;
 }
@@ -32,11 +35,13 @@
     border-color: #dc3545 !important; 
 } */
 
-.select-input {
+
+
+/* .select-input {
     position: relative;
 }
 
-.select-input.loading::after {
+.select-input.loading-data::after {
     content: "Cargando...";
     position: absolute;
     height: 100%;
@@ -47,8 +52,34 @@
     color: #b5b5b5;
 }
 
+.select-input.loading-data::before {
+    content: " ";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+} */
+.form-field-wrapper .loading-data{
+    position: relative;
+}
+.form-field-wrapper .loading-data::after {
+    content: "Cargando...";
+    position: absolute;
+    height: 100%;
+    top: 0;
+    padding-left: 14px;
+    display: flex;
+    align-items: center;
+    color: #b5b5b5;
+}
 
-
+.form-field-wrapper .loading-data::before {
+    content: " ";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
 .react-tel-input {
     font-family: 'Roboto', sans-serif;
     /* font-size: 15px; */
@@ -1205,4 +1236,4 @@
     white-space: nowrap */
 }
 
-/*# sourceMappingURL=main.8ab3b644.css.map*/
+/*# sourceMappingURL=main.42e089b0.css.map*/
