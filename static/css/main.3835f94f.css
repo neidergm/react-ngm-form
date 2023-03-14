@@ -1,85 +1,3 @@
-/* .form-field-wrapper{
-} */
-
-.password-input {
-    position: relative;
-}
-
-.password-input>input {
-    padding-right: 42px;
-}
-
-.password-input>span {
-    cursor: pointer;
-    position: absolute;
-    top: 0;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    padding: 14px;
-    right: 0;
-}
-
-.password-input>span>svg {
-    height: 18px;
-    width: 18px;
-}
-
-/* .react-tel-input .selected-flag:hover, .react-tel-input .selected-flag:focus {
-    background-color: #00000014 !important;
-}
-.react-tel-input .flag-dropdown.open .selected-flag{
-    background-color: #0000000b !important;
-}
-.is-invalid{
-    border-color: #dc3545 !important; 
-} */
-
-
-
-/* .select-input {
-    position: relative;
-}
-
-.select-input.loading-data::after {
-    content: "Cargando...";
-    position: absolute;
-    height: 100%;
-    top: 0;
-    padding-left: 14px;
-    display: flex;
-    align-items: center;
-    color: #b5b5b5;
-}
-
-.select-input.loading-data::before {
-    content: " ";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-} */
-.form-field-wrapper .loading-data{
-    position: relative;
-}
-.form-field-wrapper .loading-data::after {
-    content: "Cargando...";
-    position: absolute;
-    height: 100%;
-    top: 0;
-    padding-left: 14px;
-    display: flex;
-    align-items: center;
-    color: #b5b5b5;
-}
-
-.form-field-wrapper .loading-data::before {
-    content: " ";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-}
 .react-tel-input {
     font-family: 'Roboto', sans-serif;
     /* font-size: 15px; */
@@ -1084,10 +1002,10 @@
     border-radius: 5px 0 0 0
 }
 
-.react-tel-input .flag-dropdown.open .selected-flag {
-    /* background: #fff; */
-    /* border-radius: 3px 0 0 0 */
-}
+/* .react-tel-input .flag-dropdown.open .selected-flag {
+    background: #fff;
+    border-radius: 3px 0 0 0
+} */
 
 .react-tel-input input[disabled]+.flag-dropdown:hover {
     cursor: default
@@ -1235,5 +1153,130 @@
     padding: 0 2px;
     white-space: nowrap */
 }
+/* .form-field-wrapper{
+} */
 
-/*# sourceMappingURL=main.42e089b0.css.map*/
+.password-input {
+    position: relative;
+}
+
+.password-input>input {
+    padding-right: 42px;
+}
+
+.password-input>span {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    right: 0;
+}
+
+.password-input>span>svg {
+    height: 18px;
+    width: 18px;
+}
+
+/* .react-tel-input .selected-flag:hover, .react-tel-input .selected-flag:focus {
+    background-color: #00000014 !important;
+}
+.react-tel-input .flag-dropdown.open .selected-flag{
+    background-color: #0000000b !important;
+}
+.is-invalid{
+    border-color: #dc3545 !important; 
+} */
+
+
+
+/* .select-input {
+    position: relative;
+}
+
+.select-input.loading-data::after {
+    content: "Cargando...";
+    position: absolute;
+    height: 100%;
+    top: 0;
+    padding-left: 14px;
+    display: flex;
+    align-items: center;
+    color: #b5b5b5;
+}
+
+.select-input.loading-data::before {
+    content: " ";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+} */
+.form-field-wrapper table td .form-field-wrapper {
+    min-width: 160px;
+}
+
+.form-field-wrapper .loading-data {
+    position: relative;
+}
+
+.form-field-wrapper .loading-data::after {
+    content: "Cargando...";
+    position: absolute;
+    height: 100%;
+    top: 0;
+    padding-left: 14px;
+    display: flex;
+    align-items: center;
+    color: #b5b5b5;
+}
+
+.form-field-wrapper .loading-data::before {
+    content: " ";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+
+.form-field-wrapper.required>label::after {
+    content: " *";
+    color: red;
+}
+
+.form-field-wrapper>label+span {
+    cursor: pointer;
+    color: rgb(96, 96, 255);
+    margin-left: 5px;
+}
+
+.form-field-wrapper .field-list>div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+}
+
+.form-field-wrapper .field-list>button {
+    margin-top: 10px;
+}
+
+.form-field-wrapper .field-list>div:hover {
+    background-color: #00000006;
+}
+
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+.form-field-wrapper .form-control:disabled,
+.form-field-wrapper .form-control.disabled,
+.form-field-wrapper .form-select.disabled
+{
+    background-color: #e9ecef !important;
+    opacity: 1;
+}
+
+
+/*# sourceMappingURL=main.3835f94f.css.map*/
